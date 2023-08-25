@@ -3,7 +3,7 @@ It's a game of AI rock, paper, scissors.✊✋✌
 <br>
 <h1>Why AI rock paper scissors</h1>
 <br>
-The 'AI' in this game can read player patterns to predict what actions to take next in order to make it <b> indefeatable. </b>
+The 'AI' in this game can read player patterns to predict what actions to take next in order to make it <b> undefeatable. </b>
 <br>
 <h1>How to play</h1>
 <br>

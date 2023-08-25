@@ -1,2 +1,3 @@
 # Rock-Paper-Scissors-AI
-This is an Virtual AI rock paper scissors game.
+It's a game of AI rock, paper, scissors.
+

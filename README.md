@@ -12,7 +12,7 @@ simply launch the game, play it, and see who wins !😜
 <h1>How to develop</h1>
 <br>
 <li>Install the dependencies</li>
-<li>collect Images for each gesture (rock, paper and scissors and None) for training the model</li>
+<li>Collect Images for each gesture (rock, paper and scissors and None) for training the model</li>
 <li>Train and Test the model</li>
-<li>play and enjoy</li> 
+<li>Play and enjoy</li> 
 

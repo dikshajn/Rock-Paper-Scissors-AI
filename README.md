@@ -7,7 +7,7 @@ The 'AI' in this game can read player patterns to predict what actions to take n
 <br>
 <h1>How to play</h1>
 <br>
-simply launch the game, play it, and see who wins !😜
+simply launch the game, play the infamous Rock Paper Scissors game, and see who wins !😜
 <br>
 <h1>How to develop</h1>
 <br>

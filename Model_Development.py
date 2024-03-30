@@ -5,6 +5,7 @@ from keras.optimizers import Adam
 from keras.utils import np_utils
 from keras.layers import Activation, Dropout, Convolution2D, GlobalAveragePooling2D
 from keras.models import Sequential
+from keras.models import load_model
 import os
 import sys
 
@@ -107,3 +108,32 @@ model.fit(np.array(data), labels, epochs=10)
 
 # Save the model
 model.save("rock-paper-scissors-model.h5")
+
+# Use the trained model to predict the gesture in a given image file
+def predict_gesture(filepath):
+    REV_CLASS_MAP = {
+        0: "rock",
+        1: "paper",
+        2: "scissors",
+        3: "none"
+    }
+
+    def mapper(val):
+        return REV_CLASS_MAP[val]
+
+    model = load_model("rock-paper-scissors-model.h5")
+
+    # prepare the image
+    img = cv2.imread(filepath)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = cv2.resize(img, (227, 227))
+
+    # predict the move made
+    pred = model.predict(np.array([img]))
+    move_code = np.argmax(pred[0])
+    move_name = mapper(move_code)
+
+    print("Predicted: {}".format(move_name))
+
+# Use the function to predict gesture in a given image file
+if len(sys.argv) > 

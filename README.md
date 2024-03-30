@@ -12,7 +12,7 @@ simply launch the game, play the infamous Rock Paper Scissors game, and see who 
 <h1>How to develop</h1>
 <br>
 <li>Install the dependencies</li>
-<li>Collect Images of hand as (rock, paper and scissors and None) for training the model</li>
-<li>Train and Test the model</li>
-<li>Deployment for use</li> 
+<li>Collect Images of hand as (rock, paper and scissors and None) for training the model(part of model development)</li>
+<li>Train and Test the model(part of model development)</li>
+<li>Deployment for use(enjoy the game 😊)</li> 
 
